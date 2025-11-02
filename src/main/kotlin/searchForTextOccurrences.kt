@@ -82,7 +82,7 @@ private fun searchInFile(file: Path, searchString: String): List<Occurrence> {
                 }
             }
         }
-    } catch (e: Exception) {
+    } catch (_: Exception) {
     }
 
     return occurrences
